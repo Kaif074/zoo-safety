@@ -26,6 +26,83 @@
 			],
 			"isBackground": false,
 			"problemMatcher": []
+		},
+		{
+			"label": "Commit zoo-safety",
+			"type": "shell",
+			"command": "C:\\PROGRA~1\\Git\\cmd\\git.exe",
+			"args": [
+				"-C",
+				"C:\\Users\\Dell\\zoo",
+				"-c",
+				"user.name=Kaif074",
+				"-c",
+				"user.email=kaif074@users.noreply.github.com",
+				"commit",
+				"-m",
+				"Add Zoo Child Finder Firebase web app"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Push zoo-safety",
+			"type": "shell",
+			"command": "C:\\PROGRA~1\\Git\\cmd\\git.exe",
+			"args": [
+				"-C",
+				"C:\\Users\\Dell\\zoo",
+				"push",
+				"-u",
+				"origin",
+				"main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Configure main branch",
+			"type": "shell",
+			"command": "C:\\PROGRA~1\\Git\\cmd\\git.exe",
+			"args": [
+				"-C",
+				"C:\\Users\\Dell\\zoo",
+				"branch",
+				"-M",
+				"main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Configure GitHub origin",
+			"type": "shell",
+			"command": "C:\\PROGRA~1\\Git\\cmd\\git.exe",
+			"args": [
+				"-C",
+				"C:\\Users\\Dell\\zoo",
+				"remote",
+				"add",
+				"origin",
+				"https://github.com/Kaif074/zoo-safety.git"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Push main branch",
+			"type": "shell",
+			"command": "C:\\PROGRA~1\\Git\\cmd\\git.exe",
+			"args": [
+				"-C",
+				"C:\\Users\\Dell\\zoo",
+				"push",
+				"-u",
+				"origin",
+				"main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
 		}
 	]
 }
