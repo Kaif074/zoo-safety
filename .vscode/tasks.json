@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Push zoo-safety to GitHub",
+			"type": "shell",
+			"command": "C:\\PROGRA~1\\Git\\cmd\\git.exe",
+			"args": [
+				"-C",
+				"C:\\Users\\Dell\\zoo",
+				"status",
+				"--short",
+				"--branch"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Commit and push zoo-safety",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/d",
+				"/c",
+				"cd /d C:\\Users\\Dell\\zoo && C:\\PROGRA~1\\Git\\cmd\\git.exe add -A && C:\\PROGRA~1\\Git\\cmd\\git.exe -c user.name=Kaif074 -c user.email=kaif074@users.noreply.github.com commit -m \"Add Zoo Child Finder Firebase web app\" && C:\\PROGRA~1\\Git\\cmd\\git.exe branch -M main && C:\\PROGRA~1\\Git\\cmd\\git.exe remote remove origin && C:\\PROGRA~1\\Git\\cmd\\git.exe remote add origin https://github.com/Kaif074/zoo-safety.git && C:\\PROGRA~1\\Git\\cmd\\git.exe push -u origin main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
